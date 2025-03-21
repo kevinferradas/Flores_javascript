@@ -1,6 +1,6 @@
 // Datos de trabajo
 
-const flores = [
+const flores = JSON.parse(localStorage.getItem("flores")) || [
   { nombre: "rosa", color: "rojo", floracion: "primavera", stock: true },
   { nombre: "rosa", color: "blanco", floracion: "verano", stock: true },
   { nombre: "jazmín", color: "blanco", floracion: "verano", stock: false },
